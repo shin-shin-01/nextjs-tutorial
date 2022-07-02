@@ -1,10 +1,11 @@
 import Head from 'next/head';
+import Layout from '../../components/layout';
 import Link from 'next/link';
 import Script from 'next/script';
 
 export default function FirstPost() {
   return (
-    <>
+    <Layout>
       <Head>
         <title>First Post</title>
       </Head>
@@ -24,6 +25,6 @@ export default function FirstPost() {
         {/* // Server-Side Navigation */}
         {/* <a href="/">Back to home</a> */}
       </h2>
-    </>
+    </Layout>
   );
 }
