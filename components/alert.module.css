@@ -1,0 +1,17 @@
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.success {
+  color: green;
+}
+
+.warning {
+  color: orange;
+}
+
+.error {
+  color: red;
+}
