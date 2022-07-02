@@ -1,7 +1,13 @@
 import styles from './alert.module.css'
-import cn from 'classnames';
+import cn from 'classnames'
 
-export default function Alert({ children, type }) {
+export default function Alert({
+  children,
+  type
+}: {
+  children: React.ReactNode
+  type: string
+}) {
   return (
     <div
       className={ `${styles.center} ${cn({
